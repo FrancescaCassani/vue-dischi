@@ -1,5 +1,30 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background: #1e2d3b;
+}
+
+/* Set images */
+img {
+  max-width: 100%;
+}
+
+/* HEADER LOGO */
+.logo {
+  background: #2e3a46;
+}
+
+.logo img {
+  padding: 10px 10px 5px;
+  max-height: 60px;
+}
+
+
+

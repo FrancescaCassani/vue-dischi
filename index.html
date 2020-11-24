@@ -12,8 +12,26 @@
 <body>
 
   <div id="spotify">
-    
 
+    <!-- Header logo -->
+    <div class="logo">
+      <img src="./img/logo.png" alt="Spotify">
+    </div>
+
+    <!-- Album collection -->
+    <div class="collection">
+      <ul>
+        <li class="album" v-for="album in albums">
+          <div class="album-cover">
+            <img :src="album.poster" :alt="album.title">
+          </div>
+          <h3 class="title">{{album.title}}</h3>
+          <div class="author">{{album.author}}</div>
+          <div class="year">{{album.year}}</div>
+          <div class="genre">{{album.genre}}</div>
+        </li>
+      </ul>
+    </div>
   </div>
 
 
