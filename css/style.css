@@ -11,19 +11,68 @@ body {
   background: #1e2d3b;
 }
 
+#spotify {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
 /* Set images */
 img {
   max-width: 100%;
 }
 
 /* HEADER LOGO */
-.logo {
+header {
+  max-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   background: #2e3a46;
+}
+
+.logo {
+  flex-grow: 1;
 }
 
 .logo img {
   padding: 10px 10px 5px;
   max-height: 60px;
+}
+
+.upgrade {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  margin-right: 30px;
+  height: 40px;
+  padding: 5px 25px;
+  font-size: 15px;
+  color: #fff;
+  background: #000;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 25px;
+}
+
+.upgrade:hover {
+  scale: 1.1;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.user img {
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.user i {
+  margin-left: 8px;
 }
 
 /* COLLECTION */
@@ -33,6 +82,7 @@ img {
   justify-content: center;
   padding: 40px 15px;
   list-style: none;
+
 }
 
 .collection .album {
@@ -62,6 +112,13 @@ img {
 
 .album .genre {
   font-size: 14px;
+}
+
+/* FILTRO GENERE */
+.filter {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13px;
 }
 
 
