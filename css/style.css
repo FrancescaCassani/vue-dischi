@@ -47,5 +47,22 @@ img {
   min-height: 170px;
 }
 
+.album .title {
+  font-size: 21px;
+  text-transform: uppercase;
+  margin: 8px 0;
+}
+
+.album .author,
+.album .year {
+  margin-bottom: 8px;
+  font-size: 17px;
+  color: rgb(153, 153, 153);
+}
+
+.album .genre {
+  font-size: 14px;
+}
+
 
 
